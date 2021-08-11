@@ -1,0 +1,19 @@
+//
+//  Development.xcconfig
+//  PhaseEx
+//
+//  Created by 김종권 on 2021/08/11.
+//
+
+// Development.xcconfig
+#include "Target Support Files/Pods-PhaseEx/Pods-PhaseEx.debug (development).xcconfig"
+#include "Target Support Files/Pods-PhaseEx/Pods-PhaseEx.release (development).xcconfig"
+// Server URL
+ROOT_URL = http:/$()/localhost:3000
+
+// Keys
+API_KEY = 783u9djd8a_hkzos7jd803001nd
+
+// App Settings
+APP_NAME = PhaseEx (dev)
+APP_BUNDLE_ID = com.PhaseEx.dev

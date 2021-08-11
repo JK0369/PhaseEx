@@ -1,0 +1,20 @@
+//
+//  Staging.xcconfig
+//  PhaseEx
+//
+//  Created by 김종권 on 2021/08/11.
+//
+
+// Staging.xcconfig
+#include "Target Support Files/Pods-PhaseEx/Pods-PhaseEx.debug (staging).xcconfig"
+#include "Target Support Files/Pods-PhaseEx/Pods-PhaseEx.release (staging).xcconfig"
+
+// Server URL
+ROOT_URL = https:/$()/www.staging.mytestapp.thoughtbot.com
+
+// Keys
+API_KEY = 89dhdyd93380dkqmoe_hd830dhq
+
+// App Settings
+APP_NAME = PhaseEx (staging)
+APP_BUNDLE_ID = com.PhaseEx.staging

@@ -1,0 +1,20 @@
+//
+//  Production.xcconfig
+//  PhaseEx
+//
+//  Created by 김종권 on 2021/08/11.
+//
+
+// Production.xcconfig
+#include "Pods/Target Support Files/Pods-PhaseEx/Pods-PhaseEx.debug (production).xcconfig"
+#include "Pods/Target Support Files/Pods-PhaseEx/Pods-PhaseEx.release (production).xcconfig"
+
+// Server URL
+ROOT_URL = https:/$()/www.mytestapp.thoughtbot.com
+
+// Keys
+API_KEY = 9ud0930djd_md9zdjdko3830lb0d
+
+// App Settings
+APP_NAME = phaseEx
+APP_BUNDLE_ID = com.phaseEx
